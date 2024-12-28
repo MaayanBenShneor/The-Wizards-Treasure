@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &23385921004264500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 23385921004264498}
+  - component: {fileID: 23385921004264499}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &23385921004264498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23385921004264500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6055034, y: 1.6108781, z: -337.42117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &23385921004264499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23385921004264500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9603a4771439a3040b75f6b953d9f515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerJump
+    clip: {fileID: 8300000, guid: 014de2d6d2007d84882c99c038155df7, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: c628c38157e888f4f86057759ff1c8f2, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: TvOn
+    clip: {fileID: 8300000, guid: 8d8c35ae72435be4db319cf1983d3bcd, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: TvStatic
+    clip: {fileID: 8300000, guid: 76e7351f5b05fb64291bf05d10065486, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: TvOff
+    clip: {fileID: 8300000, guid: be496ce9641a3944195b1bd428fa11b9, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 6542f6471f3a55843b80886944f0675a, type: 3}
+    volume: 0.03
+    pitch: 1
+    loop: 1
+    playOnAwake: 1
+    source: {fileID: 0}
+  - name: StartMenuTheme
+    clip: {fileID: 8300000, guid: 88c0a649f7f401d48bff7d212f781095, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
